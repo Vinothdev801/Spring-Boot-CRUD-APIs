@@ -1,10 +1,8 @@
 package com.learning.rest_demo.controller;
 
 import com.learning.rest_demo.model.Student;
-import com.learning.rest_demo.repository.StudentRepository;
 import com.learning.rest_demo.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
